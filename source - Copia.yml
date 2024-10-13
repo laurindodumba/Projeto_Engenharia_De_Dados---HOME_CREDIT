@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: db_credit  # Nome da fonte
+    database: DB_CREDIT  # Nome do banco de dados
+    schema: PUBLIC  # Nome do esquema
+    tables:
+      - name: APLICATION_TEST  # Nome da tabela
+      - name: BUREAU  # Nome da tabela
+      - name: DIM_APLICATION_PERFIL
+      - name: DIM_BUREAU
+      - name: FAT_CREDIT
